@@ -51,5 +51,5 @@ forecast = [
 ]
 
 forecast.each do |hash|
-  puts "The forecast for #{hash['day'].capitalize} is a high of #{hash["temperatures"]["high"]} and a low of #{hash["temperatures"]["low"]}."
+  puts "#{hash['day'].capitalize}\nHigh: #{hash["temperatures"]["high"]}, Low:#{hash["temperatures"]["low"]}."
 end
